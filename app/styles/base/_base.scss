@@ -13,4 +13,18 @@ html, body {
 .card {
   width: 35%;
   border-radius: 1em;
+  padding: 1%;
+  margin: 1%;
+  background-color: #71A696;
+}
+h1 {
+  font-family: "adequate";
+}
+.sample {
+  width: 30%;
+  padding: 1%;
+  &:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+  }
 }
