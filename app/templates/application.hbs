@@ -1,6 +1,18 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="navbar">
+  <ul>
+    <li>{{#scroll-to href="#about"}} About {{/scroll-to}}</li>
+    <li>{{#scroll-to href="#portfolio"}} Portfolio {{/scroll-to}}</li>
+    <li>{{#scroll-to href="#contact"}} Contact {{/scroll-to}}</li>
+  </ul>
+</div>
 
 {{outlet}}
 
-{{!-- ember-cli-materialize modal container --}}
-{{md-modal-container}}
+<footer class="page-footer red accent-1">
+  <div class="footer-copyright">
+    <div class="container">
+    © 2016 Sara Wagner
+    <a class="grey-text text-lighten-4 right" href="https://www.linkedin.com/in/swagner23q" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
