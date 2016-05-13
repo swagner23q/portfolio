@@ -3,9 +3,10 @@
 
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     li {
+      margin-right: 5%;
     }
   }
 }
