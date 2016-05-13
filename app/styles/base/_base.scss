@@ -12,10 +12,17 @@ html, body {
 }
 .card {
   width: 37%;
+  height: 350px!important;
   border-radius: 1em;
   padding: 1%;
   margin: 1%;
-  background-color: beige;
+  background-color: #B1C3CF;
+  img {
+    width: 34%;
+  }
+}
+.card-action {
+  border-radius: 0 0 1em 1em;;
 }
 h1 {
   font-family: "adequate";
@@ -27,4 +34,7 @@ h1 {
     transition: all .2s ease-in-out;
     transform: scale(1.1);
   }
+}
+a {
+  color: #808D9E;
 }
