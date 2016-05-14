@@ -11,7 +11,7 @@
     box-shadow: 1px 1px 3px grey;
     padding: 0 1.5% 1.5% 1.5%;
     .navAbout {
-      border-radius: 0 0 0 1em;
+      border-radius: 0 0 0 .5em;
     }
     .navContact {
       border-radius: 0 0 1em 0;
@@ -23,9 +23,6 @@
       opacity: .8;
       width: 110px;
 
-      &:hover {
-        background-color: lighten(#9AC6B9, 5%);
-      }
     }
   }
 }
