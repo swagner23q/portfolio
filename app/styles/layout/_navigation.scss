@@ -9,6 +9,7 @@
     margin-top: 0;
     border-radius: 0 0 1em 1em;
     box-shadow: 1px 1px 3px grey;
+    padding: 0 1.5% 1.5% 1.5%;
     .navAbout {
       border-radius: 0 0 0 1em;
     }
@@ -17,9 +18,10 @@
     }
     li {
       margin-top: 0;
-      padding: 5% 7% 5% 7%;
+      padding: 5% 8% 5% 8%;
       background-color: white;
       opacity: .8;
+      width: 110px;
 
       &:hover {
         background-color: lighten(#9AC6B9, 5%);
