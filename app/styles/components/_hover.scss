@@ -188,4 +188,17 @@ figure.effect-layla:hover img {
 .last {
   position: relative;
   left: 25%;
+	@media (max-width: 600px) {
+		left: 0;
+	}
+}
+.portHolder {
+
+	@media (max-width: 600px) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
 }

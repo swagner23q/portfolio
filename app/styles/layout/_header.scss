@@ -2,25 +2,40 @@ header {
   .headerName {
     font-family: "adequate";
     position: absolute;
-    top: 28%;
+    top: 37%;
     right: 18%;
     font-size: 4em;
     text-shadow: 2px 2px 4px #808D9E;
     -webkit-text-stroke: .5px #808D9E;
-    background-color: white;
     padding: 3px;
-    box-shadow: 3px 3px 4px grey;
+    z-index: 2;
+    @media (max-width: 600px) {
+      font-size: 3em;
+      text-align: center;
+      width: 200px;
+      right: 25%;
+    }
   }
   .headerDescription {
     font-family: "adequate";
     position: absolute;
     font-size: 1.5em !important;
-    top: 35%;
-    right: 18%;
+    top: 42.5%;
+    right: 14%;
     text-shadow: 2px 2px 4px #808D9E;
     -webkit-text-stroke: .5px #808D9E;
-    background-color: white;
     padding: 3px;
-    box-shadow: 3px 3px 4px grey;
+    z-index: 1;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  .headerBand {
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 38%;
+    opacity: .5;
+    background-color: white;
   }
 }
